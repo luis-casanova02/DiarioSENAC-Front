@@ -1,6 +1,5 @@
 export interface Registro {
   titulo: string;
-  descricao: string;
+  conteudo: string;
   data: Date;
-  categoria: string;
 }

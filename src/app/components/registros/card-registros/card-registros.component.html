@@ -2,8 +2,8 @@
     <section>
         <div id="registro">
             <h3>{{registro.titulo}}</h3>
-            <p>{{registro.descricao}}</p>
-            <p>Data: {{registro.data}}</p>
+            <p>{{registro.conteudo}}</p>
+            <p>Data: {{ registro.data | date:'dd/MM/yyyy' }}</p>
         </div>
     </section>
 </div>
